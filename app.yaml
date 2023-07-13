@@ -1,8 +1,6 @@
 runtime: php82
-
+entrypoint: index.html
 handlers:
-- url: /
-  upload: ../index.html
 
 - url: /(.*)
   static_files: ../\1
